@@ -29,6 +29,7 @@ namespace EbooksLib
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.ebooksGridView = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.SearchText = new System.Windows.Forms.TextBox();
@@ -69,29 +70,31 @@ namespace EbooksLib
             this.SearchText.Location = new System.Drawing.Point(90, 8);
             this.SearchText.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.SearchText.Name = "SearchText";
-            this.SearchText.Size = new System.Drawing.Size(842, 23);
+            this.SearchText.Size = new System.Drawing.Size(828, 23);
             this.SearchText.TabIndex = 2;
             // 
             // SearchButton
             // 
             this.SearchButton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.SearchButton.Location = new System.Drawing.Point(961, 8);
+            this.SearchButton.Image = ((System.Drawing.Image)(resources.GetObject("SearchButton.Image")));
+            this.SearchButton.Location = new System.Drawing.Point(958, 8);
             this.SearchButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.SearchButton.Name = "SearchButton";
-            this.SearchButton.Size = new System.Drawing.Size(97, 23);
+            this.SearchButton.Size = new System.Drawing.Size(100, 23);
             this.SearchButton.TabIndex = 3;
             this.SearchButton.Text = "Rechercher";
+            this.SearchButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.SearchButton.UseVisualStyleBackColor = true;
             this.SearchButton.Click += new System.EventHandler(this.SearchButton_Click);
             // 
             // ClearButton
             // 
-            this.ClearButton.Location = new System.Drawing.Point(934, 7);
+            this.ClearButton.Image = ((System.Drawing.Image)(resources.GetObject("ClearButton.Image")));
+            this.ClearButton.Location = new System.Drawing.Point(924, 7);
             this.ClearButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ClearButton.Name = "ClearButton";
-            this.ClearButton.Size = new System.Drawing.Size(21, 24);
+            this.ClearButton.Size = new System.Drawing.Size(28, 24);
             this.ClearButton.TabIndex = 4;
-            this.ClearButton.Text = "X";
             this.ClearButton.UseVisualStyleBackColor = true;
             this.ClearButton.Click += new System.EventHandler(this.ClearButton_Click);
             // 
