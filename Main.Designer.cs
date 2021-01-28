@@ -77,10 +77,10 @@ namespace EbooksLib
             // 
             this.SearchButton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.SearchButton.Image = ((System.Drawing.Image)(resources.GetObject("SearchButton.Image")));
-            this.SearchButton.Location = new System.Drawing.Point(958, 8);
+            this.SearchButton.Location = new System.Drawing.Point(924, 7);
             this.SearchButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.SearchButton.Name = "SearchButton";
-            this.SearchButton.Size = new System.Drawing.Size(100, 23);
+            this.SearchButton.Size = new System.Drawing.Size(100, 24);
             this.SearchButton.TabIndex = 3;
             this.SearchButton.Text = "Rechercher";
             this.SearchButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -90,7 +90,7 @@ namespace EbooksLib
             // ClearButton
             // 
             this.ClearButton.Image = ((System.Drawing.Image)(resources.GetObject("ClearButton.Image")));
-            this.ClearButton.Location = new System.Drawing.Point(924, 7);
+            this.ClearButton.Location = new System.Drawing.Point(1028, 7);
             this.ClearButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ClearButton.Name = "ClearButton";
             this.ClearButton.Size = new System.Drawing.Size(28, 24);
